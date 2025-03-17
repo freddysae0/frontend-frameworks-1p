@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --fix src",
+    "lint:hook": "eslint",
+    "prettier:hook": "npx prettier --write ."
   },
   "dependencies": {
     "next": "15.2.2",
@@ -22,6 +24,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.2.2",
     "lefthook": "^1.11.3",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
