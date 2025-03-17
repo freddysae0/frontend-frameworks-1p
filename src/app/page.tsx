@@ -1,8 +1,8 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
 import shrekAdjetives from "./shrek_adjetives.json";
 export default function Home() {
+  const pepe = "asd";
   const adjetives = shrekAdjetives;
   const [currentAdjetive, setCurrentAdjetive] = useState(adjetives[0]);
 
@@ -24,12 +24,13 @@ export default function Home() {
         {" "}
         Click
       </button>
-      <Image
+
+      <img
         src="https://static.wikia.nocookie.net/shrek/images/3/3f/Portada_img.jpg/revision/latest?cb=20100719002911&path-prefix=es"
         alt="Shrek"
         width={500}
         height={500}
-      ></Image>
+      ></img>
     </div>
   );
 }
