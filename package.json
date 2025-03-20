@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint --fix src",
     "lint:hook": "eslint",
-    "prettier:hook": "npx prettier --write ."
+    "prettier:hook": "npx prettier --write"
   },
   "dependencies": {
     "next": "15.2.2",
