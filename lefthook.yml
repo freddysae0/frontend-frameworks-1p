@@ -6,6 +6,8 @@ pre-commit:
 
     - run: npm run prettier:hook 
       glob: '**/*.{js,ts,jsx,tsx,json,css,scss,md,html}'
+      stage_fixed: true
+
 
 
 
