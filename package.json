@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix src",
+    "lint": "eslint --fix",
     "lint:hook": "eslint",
     "prettier:hook": "npx prettier --write"
   },
